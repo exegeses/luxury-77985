@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1200px;
+    margin: auto;
+    background-color: #1A1A1A;
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 104px;
+    background-color: hsl(204, 31%, 10%);
+    border-bottom: 2px solid hsl(204, 31%, 76%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    header nav a{
+        margin: 16px;
+        font-size: 24px;
+        color: white;
+    }
+
+main{
+    min-height: 680px;
+    background-color: hsl(204, 29%, 10%);
+}
+
+/* seccion hero-banner */
+#hero-banner{
+    height: 680px;
+    background-image: url(../imgs/heroimage.jpg);
+    display: flex;
+    align-items: center;
+}
+    #hero-banner h1{
+        margin-left: 144px;
+        width: 322px;
+        font-size: 40px;
+        font-weight: 400;
+        color: #F6CE77;
+        text-shadow: 0px 0px 8px #1A1A1A;
+    }
+
+/* sección men's */    
+#mens{
+    margin-top: 44px;
+    height: 734px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    #mens article{
+        width: 378px;
+        height: 654px;
+        background-color: #120703;
+    }
+        #mens article h2{
+            margin: 16px 24px 12px 24px;
+            font-size: 32px;
+            font-weight: 400;
+        }
+        #mens article span{
+            margin: 0px 24px;
+            color: #F6CE77;
+        }
+
+/* formulario de contacto */
+    #form-contacto{
+        width: 512px;
+        height: 482px;
+        margin: auto;
+        padding: 80px 24px 24px 24px;
+    }
+        #form-contacto input{
+            width: 448px;
+            padding: 8px 16px;
+            margin: 16px 0px 24px 0px;
+            border: none;
+            border-bottom: 1px solid #AFC6D5;
+            color: white;
+            background-color: hsl(204, 29%, 10%);
+            font-size: 24px;
+            font-family: Roboto, sans-serif;
+        }
+        #form-contacto textarea{
+            width: 448px;
+            margin: 16px 0px 24px 0px;
+            padding: 8px 16px;
+            height: 156px;
+            border: none;
+            color: white;
+            border-bottom: 1px solid #AFC6D5;
+            background-color: hsl(204, 29%, 10%);
+            font-size: 24px;
+            font-family: Roboto, sans-serif;
+            resize: none; 
+        }
+        #form-contacto button{
+            width: 192px;
+            padding: 8px 16px;
+            border-radius: 8px;
+            color: white;
+            background-color: hsl(204, 29%, 40%);
+            font-family: Roboto, sans-serif;
+            border: none;
+            cursor: pointer;
+            transition: 500ms;
+        }
+        #form-contacto button:hover{
+            background-color: hsl(204, 29%, 56%);
+        }
+
+/* Insertar video desde Google Maps */        
+        iframe{
+            width: 768px;
+            height: 256px;
+            border: none;
+            margin: 80px auto;
+            display: block;
+        }
+
+footer{
+    height: 204px;
+    background-color: hsl(204, 31%, 10%);
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    footer nav a{
+        color: white;
+        margin: 8px;
+    }
